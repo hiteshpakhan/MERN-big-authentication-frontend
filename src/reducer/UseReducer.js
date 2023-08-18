@@ -1,5 +1,5 @@
 // export const initialState = null;
-export const initialState = true;
+export const initialState = false;
 
 export const reducer = (state, action) =>{
     

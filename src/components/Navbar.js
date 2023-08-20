@@ -9,7 +9,7 @@ import { UserContext } from '../App';
 
 const Navbar = () => {
 
-  const {state, dispatch} = useContext(UserContext)
+  const {state} = useContext(UserContext)
 
   const RenderMenu = () => {
     console.log("state:", state)

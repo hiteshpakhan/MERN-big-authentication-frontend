@@ -41,7 +41,6 @@ const Login = () => {
 
   return (
     <>
-    {console.log("this is the value of username : ", email," and password : ", password)}
     <div class="card position-absolute top-50 start-50 translate-middle text-center"  >
               <div class="card-body">
                 <h5 class="card-title">Login</h5>

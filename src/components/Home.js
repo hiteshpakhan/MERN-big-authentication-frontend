@@ -7,15 +7,12 @@ const Home = () => {
 
   const userHomePage = async () => {
     try {
-      console.log("inside the console.log of try before /getData")
       const res = await fetch("/getData",{
         method:"GET",
         headers: {
           "Content-Type": "application/json"
         }
       });
-
-      console.log("inside the console.log of try before data = await res.json()")
 
       const data = await res.json();
       

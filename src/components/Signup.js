@@ -49,7 +49,6 @@ const Signup = () => {
 
   return (
     <>
-    {console.log("value of user : ",user)}
         <div class="card position-absolute top-50 start-50 translate-middle text-center">
               <div class="card-body">
                 <h5 class="card-title">Sign up</h5>

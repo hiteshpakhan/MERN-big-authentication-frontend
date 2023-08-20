@@ -33,7 +33,7 @@ const Signup = () => {
       })
     });
 
-    const data = await res.json();
+    const data = res.json();
 
     if (!data || data.status === 422) {
       alert(" registration error empty res or status 422 ")

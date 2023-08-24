@@ -5,7 +5,7 @@ const Contact = () => {
 
   const userContact = async () => {
     try {
-      const res = await fetch("https://mernbigauthserver.onrender.com/getData",{
+      const res = await fetch("/getData",{
         method:"GET",
         headers: {
           "Content-Type": "application/json"
@@ -41,7 +41,7 @@ const Contact = () => {
 
     const {name, email, phone, message} = userData;
 
-    const res = await fetch("https://mernbigauthserver.onrender.com/contact", {
+    const res = await fetch("/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

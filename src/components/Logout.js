@@ -10,7 +10,7 @@ const Logout = () => {
   const navigate = useNavigate()
 
   useEffect(() => {
-    fetch("https://mernbigauthserver.onrender.com/logout", {
+    fetch("/logout", {
       headers: {
           Accept: "application/json",
           "Content-Type": "application/json"

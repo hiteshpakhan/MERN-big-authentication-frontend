@@ -7,7 +7,7 @@ const Home = () => {
 
   const userHomePage = async () => {
     try {
-      const res = await fetch("https://mernbigauthserver.onrender.com/getData",{
+      const res = await fetch("/getData",{
         method:"GET",
         headers: {
           "Content-Type": "application/json"

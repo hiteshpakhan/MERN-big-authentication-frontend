@@ -8,7 +8,7 @@ const About = () => {
 
   const callAboutPage = async () => {
     try {
-      const res = await fetch("https://mernbigauthserver.onrender.com/about",{
+      const res = await fetch("/about",{
         method:"GET",
         headers: {
           Accept: "application/json",

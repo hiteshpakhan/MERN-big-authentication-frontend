@@ -23,7 +23,7 @@ const Signup = () => {
 
     const {name,email,phone,work,password,cpassword} = user;
 
-    const res = await fetch("/registerdata", {
+    const res = await fetch("https://mernbigauthserver.onrender.com/registerdata", {
       method: "POST",
       headers: {
         "Content-Type": "application/json" 
